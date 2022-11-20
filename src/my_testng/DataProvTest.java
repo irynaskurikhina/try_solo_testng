@@ -22,7 +22,7 @@ public class DataProvTest {
                 {"https://duckduckgo.com/"}
         };
     }
-git
+
     @BeforeTest
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/home/sserdiuk/workspace/amazing/toDelete/try_solo_testng/resoureces/chromedriver_linux64/chromedriver");
