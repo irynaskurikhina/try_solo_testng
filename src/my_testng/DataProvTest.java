@@ -22,7 +22,7 @@ public class DataProvTest {
                 {"https://duckduckgo.com/"}
         };
     }
-git
+
     @BeforeTest
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/home/sserdiuk/workspace/amazing/toDelete/try_solo_testng/resoureces/chromedriver_linux64/chromedriver");
@@ -57,7 +57,7 @@ git
         Assert.assertEquals(currentUrl, searchUrl, "Wrong URL displayed");
 
         WebElement etSearchField = driver.findElement(By.xpath(".//*[@name='q']"));
-        etSearchField.sendKeys("Selenium");
+        etSearchField.sendKeys("git merge vs rebasegit");
         etSearchField.submit();
         Thread.sleep(2_000);
         System.out.println("Page title is " + driver.getTitle());
